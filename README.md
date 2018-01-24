@@ -1,4 +1,6 @@
-#integers recreation one
+# integers recreation one
+
+## task
 
 Divisors of 42 are : 1, 2, 3, 6, 7, 14, 21, 42. These divisors 
 squared are: 1, 4, 9, 36, 49, 196, 441, 1764.
