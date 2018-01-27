@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>integer recreation one</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <h1>Integer Recreation one</h1>
+    <p>
+        Insert a two numbers and i will give you the divisors squared. 
+        I will also find the sum of the squared divisors and check if it is a perfect square.
+    </p>
+
+    <form id="form">
+        <label for="num1">number 1</label>
+        <input id="num1" type="number">
+        <label for="num2">number 2</label>
+        <input id="num2" type="number">
+
+        <button type="submit">send</button>
+    </form>
+
+    <h2>All outputs</h2>
+    <ul id="outputs">
+    </ul>
+
+    <p id="no-output" class="no-outputs">There seems to be no outputs</p>
     <script src="main.js"></script>
+    <script src="input.js"></script>
 </body>
 </html>
